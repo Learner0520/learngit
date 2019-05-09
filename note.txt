@@ -1,0 +1,25 @@
+Git bash 操作文件及文件夹命令
+
+切换到D盘下的Github目录		cd d:\Github
+
+回退到上一个目录		cd ..
+
+回退到主目录			cd
+
+显示当前目录路径		pwd
+
+列出当前目录中的所有文件，ll更详细		ls
+
+列出当前目录中的所有文件，包括隐藏目录		ls -a
+
+新建一个文件			touch new.txt
+
+删除一个文件			rm new.txt
+
+新建一个文件夹			mkdir new
+
+删除一个文件夹			rm -r new
+
+把当前目录下的目标文件移动到一个指定目录，使用相对路径		mv new.txt new
+
+清屏，清空Git bash 命令窗口中的所有内容		reset/clear
